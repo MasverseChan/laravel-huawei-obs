@@ -4,7 +4,6 @@
     "keywords": ["huawei", "obs", "laravel", "filesystems", "storage"],
     "homepage": "https://github.com/MasverseChan/laravel-huawei-obs.git",
     "license": "MIT",
-    "version": "v1.0.0",
     "autoload": {
         "psr-4": {
             "vcc\\HuaweiObsStorage\\": "src/"
@@ -12,16 +11,16 @@
     },
     "authors": [
         {
-            "name": "vcc",
+            "name": "vccmas",
             "email": "Chan.VS@masverse.com.my"
         }
     ],
     "require": {
         "php": ">=8.0",
-        "illuminate/filesystem": ">=9.33|>=10",
-        "illuminate/support": ">=9.33|>=10",
-        "league/flysystem": ">=3.8.0",
-        "nesbot/carbon": "^>=2.62.1"
+        "illuminate/filesystem": "9.*|10.*",
+        "illuminate/support": "9.*|10.*",
+        "league/flysystem": "3.*.*",
+        "nesbot/carbon": "2.*.*"
     },
     "extra": {
         "laravel": {
