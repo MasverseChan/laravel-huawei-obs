@@ -6,7 +6,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "vcc\\HuaweiObsStorage\\": "src/"
+            "vccmas\\HuaweiObsStorage\\": "src/"
         }
     },
     "authors": [
@@ -25,9 +25,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vccmas\\Providers\\HuaweiObsServiceProvider"
+                "vccmas\\HuaweiObsStorage\\Providers\\HuaweiObsServiceProvider"
             ]
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
