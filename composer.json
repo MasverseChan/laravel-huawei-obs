@@ -17,10 +17,10 @@
     ],
     "require": {
         "php": ">=8.0",
-        "illuminate/filesystem": "9.*|10.*",
-        "illuminate/support": "9.*|10.*",
-        "league/flysystem": "3.*.*",
-        "nesbot/carbon": "2.*.*"
+        "illuminate/filesystem": "5.8.*|^6|^7|^8|^9",
+        "illuminate/support": "5.8.*|^6|^7|^8|^9",
+        "league/flysystem": "^3",
+        "nesbot/carbon": "^2"
     },
     "extra": {
         "laravel": {
@@ -29,7 +29,8 @@
             ]
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 
     
 }
