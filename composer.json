@@ -27,6 +27,7 @@
             "providers": [
                 "vccmas\\HuaweiObsStorage\\Providers\\HuaweiObsServiceProvider"
             ]
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
