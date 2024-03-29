@@ -28,5 +28,8 @@
                 "vccmas\\HuaweiObsStorage\\Providers\\HuaweiObsServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
+
+    
 }
