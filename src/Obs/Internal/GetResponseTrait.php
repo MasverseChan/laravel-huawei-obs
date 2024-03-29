@@ -14,15 +14,15 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal;
 
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\CheckoutStream;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\Model;
-use Vcc\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
-use Vcc\HuaweiObsStorage\Obs\ObsException;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\CheckoutStream;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\Model;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
+use Vccmas\HuaweiObsStorage\Obs\ObsException;
 use Psr\Http\Message\StreamInterface;
 
 trait GetResponseTrait

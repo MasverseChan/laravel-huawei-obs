@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs;
+namespace Vccmas\HuaweiObsStorage\Obs;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\CurlHandler;
@@ -22,9 +22,9 @@ use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Promise\Promise;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\Model;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\SdkCurlFactory;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\SdkStreamHandler;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\Model;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\SdkCurlFactory;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\SdkStreamHandler;
 
 /**
  * @method Model createPostSignature(array $args=[]);

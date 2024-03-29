@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Contracts;
+namespace Vccmas\HuaweiObsStorage\Contracts;
 
 use League\Flysystem\Visibility;
 

@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
 interface ToArrayInterface
 {

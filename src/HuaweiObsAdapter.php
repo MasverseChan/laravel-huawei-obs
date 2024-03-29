@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage;
+namespace Vccmas\HuaweiObsStorage;
 
 use DateTimeInterface;
 use Generator;
@@ -27,10 +27,10 @@ use League\Flysystem\UnableToSetVisibility;
 use League\Flysystem\UnableToWriteFile;
 use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use League\MimeTypeDetection\MimeTypeDetector;
-use Vcc\HuaweiObsStorage\Contracts\PortableVisibilityConverter;
-use Vcc\HuaweiObsStorage\Contracts\VisibilityConverter;
-use Vcc\HuaweiObsStorage\Obs\ObsClient;
-use Vcc\HuaweiObsStorage\Obs\ObsException;
+use Vccmas\HuaweiObsStorage\Contracts\PortableVisibilityConverter;
+use Vccmas\HuaweiObsStorage\Contracts\VisibilityConverter;
+use Vccmas\HuaweiObsStorage\Obs\ObsClient;
+use Vccmas\HuaweiObsStorage\Obs\ObsException;
 use Throwable;
 
 class HuaweiObsAdapter implements FilesystemAdapter

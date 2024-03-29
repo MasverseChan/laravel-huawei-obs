@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
 use GuzzleHttp\Handler\CurlFactoryInterface;
 use GuzzleHttp\Handler\EasyHandle;

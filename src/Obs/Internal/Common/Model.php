@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
 class Model implements \Stringable, \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface
 {

@@ -14,7 +14,7 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs;
+namespace Vccmas\HuaweiObsStorage\Obs;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;

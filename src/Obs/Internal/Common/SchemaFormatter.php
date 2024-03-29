@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
 use Carbon\Carbon;
 

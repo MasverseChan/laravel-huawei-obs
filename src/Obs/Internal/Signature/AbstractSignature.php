@@ -14,14 +14,14 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Signature;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Signature;
 
 use GuzzleHttp\Psr7\Stream;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\Model;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\ObsTransform;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\SchemaFormatter;
-use Vcc\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
-use Vcc\HuaweiObsStorage\Obs\ObsException;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\Model;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\ObsTransform;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\SchemaFormatter;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
+use Vccmas\HuaweiObsStorage\Obs\ObsException;
 use Psr\Http\Message\StreamInterface;
 
 abstract class AbstractSignature implements SignatureInterface

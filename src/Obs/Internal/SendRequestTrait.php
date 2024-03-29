@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
@@ -9,13 +9,13 @@ use GuzzleHttp\Promise\PromiseInterface;
 use GuzzleHttp\Psr7;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\Model;
-use Vcc\HuaweiObsStorage\Obs\Internal\Resource\Constants;
-use Vcc\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
-use Vcc\HuaweiObsStorage\Obs\Internal\Resource\OBSRequestResource;
-use Vcc\HuaweiObsStorage\Obs\Internal\Signature\DefaultSignature;
-use Vcc\HuaweiObsStorage\Obs\ObsClient;
-use Vcc\HuaweiObsStorage\Obs\ObsException;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\Model;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Resource\Constants;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Resource\OBSConstants;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Resource\OBSRequestResource;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Signature\DefaultSignature;
+use Vccmas\HuaweiObsStorage\Obs\ObsClient;
+use Vccmas\HuaweiObsStorage\Obs\ObsException;
 use Psr\Http\Message\StreamInterface;
 
 trait SendRequestTrait

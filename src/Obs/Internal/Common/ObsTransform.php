@@ -1,8 +1,8 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
-use Vcc\HuaweiObsStorage\Obs\ObsClient;
+use Vccmas\HuaweiObsStorage\Obs\ObsClient;
 
 class ObsTransform implements ITransform
 {

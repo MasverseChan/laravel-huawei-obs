@@ -1,9 +1,9 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Common;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Common;
 
 use GuzzleHttp\Psr7\StreamDecoratorTrait;
-use Vcc\HuaweiObsStorage\Obs\ObsException;
+use Vccmas\HuaweiObsStorage\Obs\ObsException;
 use Psr\Http\Message\StreamInterface;
 
 class CheckoutStream implements StreamInterface

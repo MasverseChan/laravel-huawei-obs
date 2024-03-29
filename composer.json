@@ -1,5 +1,5 @@
 {
-    "name": "vcc/huawei-obs-storage",
+    "name": "vccmas/huawei-obs-storage",
     "description": "huawei obs filesystem storage for laravel 10+",
     "keywords": ["huawei", "obs", "laravel", "filesystems", "storage"],
     "homepage": "https://github.com/MasverseChan/laravel-huawei-obs.git",
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "^8.1",
+        "php": "^8.0|^8.1",
         "illuminate/filesystem": "^9.33|^10",
         "illuminate/support": "^9.33|^10",
         "league/flysystem": "^3.8.0",
@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vcc\\HuaweiObsStorage\\Providers\\HuaweiObsServiceProvider"
+                "vccmas\\HuaweiObsStorage\\Providers\\HuaweiObsServiceProvider"
             ]
         }
     }

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vcc\HuaweiObsStorage\Providers;
+namespace Vccmas\HuaweiObsStorage\Providers;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Config;
 use League\Flysystem\Filesystem;
-use Vcc\HuaweiObsStorage\HuaweiObsAdapter;
-use Vcc\HuaweiObsStorage\Obs\ObsClient;
+use Vccmas\HuaweiObsStorage\HuaweiObsAdapter;
+use Vccmas\HuaweiObsStorage\Obs\ObsClient;
 
 class HuaweiObsServiceProvider extends ServiceProvider
 {

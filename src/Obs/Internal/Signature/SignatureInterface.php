@@ -14,9 +14,9 @@
  * specific language governing permissions and limitations under the License.
  */
 
-namespace Vcc\HuaweiObsStorage\Obs\Internal\Signature;
+namespace Vccmas\HuaweiObsStorage\Obs\Internal\Signature;
 
-use Vcc\HuaweiObsStorage\Obs\Internal\Common\Model;
+use Vccmas\HuaweiObsStorage\Obs\Internal\Common\Model;
 
 interface SignatureInterface
 {
